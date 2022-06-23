@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cabify.CarPooling.Domain\Cabify.CarPooling.Domain.csproj" />
+    <ProjectReference Include="..\Cabify.CarPooling.Infra.Common\Cabify.CarPooling.Infra.Common.csproj" />
+    <ProjectReference Include="..\Cabify.CarPooling.Infra.Persistence\Cabify.CarPooling.Infra.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
